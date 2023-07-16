@@ -3,6 +3,7 @@
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 6.1"
+gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'html-proofer', '3.19.4'
 gem 'nokogiri', '1.15.3', platforms: [:ruby, :x64_mingw, :mingw, :mswin, :jruby]
 gem 'parallel', '1.23.0'
